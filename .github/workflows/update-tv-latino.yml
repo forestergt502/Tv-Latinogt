@@ -1,0 +1,143 @@
+name: Actualizar TV Latino
+
+"on":
+  workflow_dispatch:
+  schedule:
+    - cron: "20 10 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Generar lista M3U
+        shell: python
+        run: |
+          import json
+          import re
+          import urllib.request
+          from collections import defaultdict
+
+          CHANNELS_URL = "https://iptv-org.github.io/api/channels.json"
+          STREAMS_URL = "https://iptv-org.github.io/api/streams.json"
+
+          LATAM = {
+              "AR","BO","BR","BZ","CL","CO","CR","CU","DO","EC","SV","GT","HN",
+              "MX","NI","PA","PY","PE","PR","UY","VE","US"
+          }
+
+          WANTED = {"movies", "series", "music", "animation", "kids", "sports"}
+
+          ANIME_WORDS = re.compile(
+              r"\b(anime|otaku|manga|animax|anime station|animestation|crunchyroll)\b",
+              re.I
+          )
+
+          def get_json(url):
+              req = urllib.request.Request(
+                  url,
+                  headers={"User-Agent": "TV-Latino-GitHub-Action/1.0"}
+              )
+              with urllib.request.urlopen(req, timeout=60) as r:
+                  return json.load(r)
+
+          channels = get_json(CHANNELS_URL)
+          streams = get_json(STREAMS_URL)
+
+          by_id = {}
+          for ch in channels:
+              cid = ch.get("id")
+              if not cid:
+                  continue
+              langs = {str(x).lower() for x in (ch.get("languages") or [])}
+              country = str(ch.get("country") or "").upper()
+              cats = {str(x).lower() for x in (ch.get("categories") or [])}
+
+              if "spa" not in langs:
+                  continue
+              if country not in LATAM:
+                  continue
+              if ch.get("is_nsfw") is True:
+                  continue
+              if not (cats & WANTED):
+                  continue
+              by_id[cid] = ch
+
+          grouped = defaultdict(list)
+          seen_urls = set()
+
+          for st in streams:
+              cid = st.get("channel")
+              url = st.get("url")
+              if cid not in by_id or not url or url in seen_urls:
+                  continue
+
+              ch = by_id[cid]
+              cats = {str(x).lower() for x in (ch.get("categories") or [])}
+              name = (st.get("title") or ch.get("name") or cid).strip()
+
+              if ANIME_WORDS.search(name):
+                  group = "🐉 Anime"
+              elif "movies" in cats:
+                  group = "🎬 Películas"
+              elif "series" in cats:
+                  group = "📺 Series"
+              elif "sports" in cats:
+                  group = "⚽ Deportes"
+              elif "music" in cats:
+                  group = "🎵 Música"
+              elif "animation" in cats or "kids" in cats:
+                  group = "🧒 Caricaturas / Infantil"
+              else:
+                  continue
+
+              grouped[group].append({
+                  "name": name,
+                  "url": url,
+                  "logo": ch.get("logo") or "",
+                  "id": cid,
+                  "country": str(ch.get("country") or "").upper(),
+              })
+              seen_urls.add(url)
+
+          order = [
+              "🎬 Películas",
+              "📺 Series",
+              "🐉 Anime",
+              "🧒 Caricaturas / Infantil",
+              "🎵 Música",
+              "⚽ Deportes",
+          ]
+
+          lines = ["#EXTM3U"]
+          total = 0
+          for group in order:
+              items = sorted(grouped[group], key=lambda x: (x["country"], x["name"].lower()))
+              for item in items:
+                  safe_name = item["name"].replace('"', "'")
+                  safe_logo = item["logo"].replace('"', "%22")
+                  lines.append(
+                      f'#EXTINF:-1 tvg-id="{item["id"]}" tvg-logo="{safe_logo}" '
+                      f'group-title="{group}",[{item["country"]}] {safe_name}'
+                  )
+                  lines.append(item["url"])
+                  total += 1
+
+          with open("TV_Latino.m3u", "w", encoding="utf-8", newline="\n") as f:
+              f.write("\n".join(lines) + "\n")
+
+          print(f"TV_Latino.m3u generado con {total} streams.")
+
+      - name: Guardar cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add TV_Latino.m3u
+          git diff --cached --quiet && exit 0
+          git commit -m "Actualizar lista TV Latino"
+          git push
