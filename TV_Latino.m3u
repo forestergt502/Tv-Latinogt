@@ -1279,8 +1279,6 @@ https://soportedvb.click:3017/live/linierostvlive.m3u8
 https://cdn4.streamgato.us:3595/live/litoralhdlive.m3u8
 #EXTINF:-1 tvg-id="LoretoTV.ec@SD" tvg-logo="https://i.imgur.com/3qGSAT3.png" group-title="📡 TV General",Loreto TV (720p)
 https://loretotv.moxapps.shop/live/QFM7KYOlxWd47ybXB3Z1u2P13Py1/index.m3u8
-#EXTINF:-1 tvg-id="LosSantosTV.cr@SD" tvg-logo="https://i.imgur.com/5xw86wu.png" group-title="📡 TV General",Los Santos TV (720p)
-https://lstv.duckdns.org:449/hls/lstv.m3u8
 #EXTINF:-1 tvg-id="LotPlusTV.pe@SD" tvg-logo="https://i.imgur.com/gBbCDCL.png" group-title="📡 TV General",LotPlus TV (720p)
 https://ontvcable.streamottmas.workers.dev/ontvcable.m3u8
 #EXTINF:-1 tvg-id="LTV.cl@SD" tvg-logo="https://i.imgur.com/XHs06BX.png" group-title="📡 TV General",LTV (2160p) [Not 24/7]
