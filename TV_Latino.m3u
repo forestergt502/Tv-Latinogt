@@ -153,8 +153,6 @@ https://stream1.sersat.com/hls/argentinisima.m3u8
 https://envivo.arica.tv/hls/Live2025AricaTV.m3u8
 #EXTINF:-1 tvg-id="ArpegioTV.pe@SD" tvg-logo="https://i.imgur.com/mxnKK1a.png" group-title="📡 TV General",Arpegio TV (720p)
 https://live-evg8.tv360.bitel.com.pe/bitel/arpegioSRT/playlist.m3u8
-#EXTINF:-1 tvg-id="ARTV.cl@SD" tvg-logo="https://i.imgur.com/rKP1ihL.png" group-title="📡 TV General",ARTV (Chile) (720p)
-http://45.162.193.35/ARTV/index.m3u8
 #EXTINF:-1 tvg-id="AsContenidos.bo@SD" tvg-logo="https://ascontenidos.com.bo/wp-content/uploads/2023/07/cropped-logo512.png" group-title="📡 TV General",As Contenidos (720p)
 https://master.tucableip.com/ascontenido/index.m3u8
 #EXTINF:-1 tvg-id="AsiSucedeGuanajuato.mx@SD" tvg-logo="https://i.imgur.com/6W7HUtG.png" group-title="📡 TV General",Asi Sucede Guanajuato (720p) [Not 24/7]
@@ -301,8 +299,8 @@ https://pantera1-100gb-cl-movistar.dps.live/campustv/campustv.smil/playlist.m3u8
 https://live20.bozztv.com/akamaissh101/ssh101/camutv/playlist.m3u8
 #EXTINF:-1 tvg-id="CanaTVDigital.do@SD" tvg-logo="https://i.imgur.com/k8jxt12.png" group-title="📡 TV General",Cana TV Digital (720p) [Not 24/7]
 https://stream.hostuis.com:19360/canatvdigital/canatvdigital.m3u8
-#EXTINF:-1 tvg-id="Canal1.co@SD" tvg-logo="https://i.imgur.com/YFywPLC.png" group-title="📡 TV General",Canal 1 (Colombia) (720p)
-http://38.134.250.110:8000/play/a014/index.m3u8
+#EXTINF:-1 tvg-id="Canal1.co@SD" tvg-logo="https://i.imgur.com/YFywPLC.png" group-title="📡 TV General",Canal 1 (Colombia) (1080p)
+http://190.109.2.92:8000/play/a010/index.m3u8
 #EXTINF:-1 tvg-id="Canal1.cr@SD" tvg-logo="https://i.ibb.co/KhNS8Dy/cropped-logoo-1.png" group-title="📡 TV General",Canal 1 (Costa Rica) (720p) [Not 24/7]
 https://vid.canal1cr.com:3424/multi_live/play_720.m3u8
 #EXTINF:-1 tvg-id="Canal1Nuble.cl@SD" tvg-logo="https://i.imgur.com/PGSixH5.png" group-title="📡 TV General",Canal 1 Nuble
@@ -873,8 +871,6 @@ https://cloud2.streaminglivehd.com:1936/dnjv2/dnjv2/playlist.m3u8
 https://live20.bozztv.com/giatv/giatv-doblec1/doblec1/playlist.m3u8
 #EXTINF:-1 tvg-id="Docevision.cl@SD" tvg-logo="https://cdn.m3u.cl/logo/1759_Docevision.png" group-title="📡 TV General",Docevision (720p)
 https://live20.bozztv.com/giatvplayout7/giatv-208729/playlist.m3u8
-#EXTINF:-1 tvg-id="Docu.cl@SD" tvg-logo="https://i.imgur.com/7xvQ7jR.png" group-title="📡 TV General",Docu. (1080p)
-http://45.162.193.35/DOCU/index.m3u8
 #EXTINF:-1 tvg-id="DreikoTV.pa@SD" tvg-logo="https://i.imgur.com/k8U0e0b.png" group-title="📡 TV General",Dreiko TV (720p) [Not 24/7]
 https://cloudvideo.servers10.com:8081/8020/index.m3u8
 #EXTINF:-1 tvg-id="DTV.pe@SD" tvg-logo="https://i.imgur.com/OSvegAq.png" group-title="📡 TV General",DTV (Peru) (720p)
@@ -2593,8 +2589,6 @@ https://stream.wapptv.cl/video/index.m3u8
 https://live20.bozztv.com/giatv/giatv-watavision/watavision/chunks.m3u8
 #EXTINF:-1 tvg-id="WayraTV.pe@SD" tvg-logo="https://i.imgur.com/eQLRVFp.png" group-title="📡 TV General",Wayra TV (720p)
 https://live-evg11.tv360.bitel.com.pe/bitel/wayratv/playlist.m3u8
-#EXTINF:-1 tvg-id="WDWL581.pr@HD" tvg-logo="https://i.imgur.com/B7lqYZe.png" group-title="📡 TV General",WDWL 58.1 (720p) [Not 24/7]
-https://67acccf130420.streamlock.net/enlacepr1/enlacepr1/playlist.m3u8
 #EXTINF:-1 tvg-id="WeatherSpy.mx@SD" tvg-logo="https://i.imgur.com/KIEKOt1.png" group-title="📡 TV General",WeatherSpy (Mexico) (720p)
 https://jukin-weatherspy-2-mx.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="WECN.pr@SD" tvg-logo="https://i.imgur.com/NYBZBY0.png" group-title="📡 TV General",WECN (720p)
@@ -2661,8 +2655,8 @@ https://cloud.fastchannel.es/mic/manifiest/hls/zaztv/zaztv.m3u8
 https://live-evg11.tv360.bitel.com.pe/bitel/zeleve/playlist.m3u8
 #EXTINF:-1 tvg-id="ZincNombreTV.do@HD" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3751-294x165-FFFFFF.jpg" group-title="📡 TV General",Zinc Nombre TV (720p) [Not 24/7]
 https://5790d294af2dc.streamlock.net/zincnombretv/live/playlist.m3u8
-#EXTINF:-1 tvg-id="ZonaLatina.cl@SD" tvg-logo="https://i.imgur.com/lMyZZtk.png" group-title="📡 TV General",Zona Latina (720p)
-http://45.162.193.35/ZONALATINA/index.m3u8
+#EXTINF:-1 tvg-id="ZonaLatina.cl@SD" tvg-logo="https://i.imgur.com/lMyZZtk.png" group-title="📡 TV General",Zona Latina (576p)
+http://45.170.130.224:8000/play/a00x/index.m3u8
 #EXTINF:-1 tvg-id="ZonaPlayTV.cl@SD" tvg-logo="https://i.imgur.com/GewcpHv.png" group-title="📡 TV General",Zona Play TV (720p)
 https://tv1.mediacp.eu:3131/live/dilxbgxylive.m3u8
 #EXTINF:-1 tvg-id="ZonaSurTV.cl@SD" tvg-logo="https://i.imgur.com/b1OtwDg.png" group-title="📡 TV General",Zona Sur TV (1080p)
@@ -2706,7 +2700,7 @@ http://15.204.246.24:8080/CinecanalHD/index.m3u8
 #EXTINF:-1 tvg-id="Cinecanal.us@Pacific" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CinecanalLA.png/960px-CinecanalLA.png" group-title="🎬 Películas",Cinecanal Pacific (1080p)
 http://138.121.15.230:9002/CINECANAL/index.m3u8
 #EXTINF:-1 tvg-id="CineLatino.mx@SD" tvg-logo="https://i.imgur.com/2V0R0xT.png" group-title="🎬 Películas",CineLatino (720p)
-http://45.162.193.35/CINELATINO_HD/index.m3u8
+http://206.135.11.174:8010/play/a0lq/index.m3u8
 #EXTINF:-1 tvg-id="CineramaTelevision.bo@SD" tvg-logo="https://play-lh.googleusercontent.com/RJ49IeJve4VPALBXqrqJGeAYOEoLQIZZ4zWwtJhofisng6ZYwGemZ-VXCx9ZQ-u7fw" group-title="🎬 Películas",Cinerama Television (720p)
 https://live.cineramatvbo.com/hls/stream.m3u8
 #EXTINF:-1 tvg-id="CinevisionCanal19.do@SD" tvg-logo="https://i.imgur.com/mJN2XNm.png" group-title="🎬 Películas",Cinevision Canal 19 (1080p) [Not 24/7]
@@ -3167,8 +3161,8 @@ https://tls-cl.cdnz.cl/rewindtv/live/playlist.m3u8
 https://eu1.servers10.com:8081/8090/index.m3u8
 #EXTINF:-1 tvg-id="RitoqueTV.cl@SD" tvg-logo="https://i.imgur.com/nTVJcFA.png" group-title="🎵 Música",Ritoque TV (720p)
 https://streaming.purum.cl/ritoquetv/index.m3u8
-#EXTINF:-1 tvg-id="RumbaTV.co@SD" tvg-logo="https://i.imgur.com/WtVpWwI.png" group-title="🎵 Música",Rumba TV (1080p)
-http://45.162.193.35/RUMBATV/index.m3u8
+#EXTINF:-1 tvg-id="RumbaTV.co@SD" tvg-logo="https://i.imgur.com/WtVpWwI.png" group-title="🎵 Música",Rumba TV
+http://186.148.196.100:8000/play/a02h
 #EXTINF:-1 tvg-id="RumbaMixTV.pe@SD" tvg-logo="https://i.imgur.com/rwA3HIp.png" group-title="🎵 Música",RumbaMix TV (720p)
 https://live-evg5.tv360.bitel.com.pe/bitel/mixtvSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="SaborTV.cl@SD" tvg-logo="https://cdn.m3u.cl/logo/416_Sabor_TV.png" group-title="🎵 Música",Sabor TV (720p)
