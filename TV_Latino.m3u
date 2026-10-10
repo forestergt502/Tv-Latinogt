@@ -2824,7 +2824,7 @@ https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8
 #EXTINF:-1 tvg-id="NickelodeonLatinAmerica.us@Panregional" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="🧒 Caricaturas / Infantil",Nickelodeon Latin America (1080p)
 http://15.204.246.24:8080/NickHD/index.m3u8
 #EXTINF:-1 tvg-id="Pakapaka.ar@SD" tvg-logo="https://i.imgur.com/GJbRWwH.png" group-title="🧒 Caricaturas / Infantil",Pakapaka (1080p)
-http://190.128.214.97:64333/play/a02r/index.m3u8
+http://138.59.227.20:8000/play/a05t/index.m3u8
 #EXTINF:-1 tvg-id="PequesTV.pe@SD" tvg-logo="https://img-evg3.tv360.bitel.com.pe/peru-image/2026/01/06/04/1767647409377/6123aa5e7fc7.png" group-title="🧒 Caricaturas / Infantil",Peques TV (720p)
 https://live-evg7.tv360.bitel.com.pe/bitel/pequestv/playlist.m3u8
 #EXTINF:-1 tvg-id="PlimPlim.ar@SD" tvg-logo="https://i.imgur.com/MYc8srh.png" group-title="🧒 Caricaturas / Infantil",Plim Plim (1080p)
@@ -3311,6 +3311,8 @@ http://162.19.255.233:8080/play/UNbAl57p9hXZClOu56FCTYXmD-MOS3u5IUkeXPpBt80/m3u8
 https://twitch-m3u8.bastypro112.workers.dev/dialogolarededucativacbba/index.m3u8
 #EXTINF:-1 tvg-id="DSports.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/DirecTV_Sports_Latin_America_%282018%29.png/960px-DirecTV_Sports_Latin_America_%282018%29.png" group-title="⚽ Deportes",DSports (1080p)
 http://38.187.7.252:8000/play/a03d/index.m3u8
+#EXTINF:-1 tvg-id="ESPNPremium.ar@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN_Premium_logo.svg/960px-ESPN_Premium_logo.svg.png" group-title="⚽ Deportes",ESPN Premium HD (1080p)
+http://190.128.214.97:64333/play/a02i/index.m3u8
 #EXTINF:-1 tvg-id="FIFAPlus.uk@HispanicAmerica" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png" group-title="⚽ Deportes",FIFA+ Hispanic America (720p)
 https://6c849fb3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctbXhfRklGQVBsdXNTcGFuaXNoLTFfSExT/playlist.m3u8
 #EXTINF:-1 tvg-id="FoxSports.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/960px-FOX_Sports_logo.svg.png" group-title="⚽ Deportes",Fox Sports (1080p)
@@ -3376,7 +3378,7 @@ https://5ca3e84a76d30.streamlock.net/tv43gto/tv43gto.smil/.m3u8
 #EXTINF:-1 tvg-id="TVGolfoUraba.co@SD" tvg-logo="https://i.imgur.com/Nd5axnS.png" group-title="⚽ Deportes",TV Golfo Uraba
 https://stmv7.voxtvhd.com.br/golfo/golfo/playlist.m3u8
 #EXTINF:-1 tvg-id="TyCSports.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png" group-title="⚽ Deportes",TyC Sports (1080p)
-http://45.181.87.106/TYCSPORTSHD/index.m3u8
+https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
 #EXTINF:-1 tvg-id="TyCSportsUSA.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png" group-title="⚽ Deportes",TyC Sports USA
 http://45.170.130.224:8000/play/a020/index.m3u8
 #EXTINF:-1 tvg-id="WinSports.co@SD" tvg-logo="https://i.imgur.com/DuSSrHV.png" group-title="⚽ Deportes",Win Sports (1080p)
