@@ -823,8 +823,6 @@ https://stream.oursnetworktv.com/latin/CristoTV/playlist.m3u8
 https://3a310f6ec721e6b362fcd22772b57f36a2fe6bb2.tabeelcr.com:8080/cristovision31/iptv.m3u8
 #EXTINF:-1 tvg-id="Cristovision.co@SD" tvg-logo="https://i.imgur.com/XIhCUY9.png" group-title="📡 TV General",Cristovision (720p)
 https://5fc584f3f19c9.streamlock.net/cristovision/videocristovision/playlist.m3u8
-#EXTINF:-1 tvg-id="CronicaTV.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e8/Cr%C3%B3nica_TV_logotipo_%282008-2015%29.png" group-title="📡 TV General",Cronica TV (1080p)
-http://190.128.214.97:64333/play/a010/index.m3u8
 #EXTINF:-1 tvg-id="CTTCanal49.do@SD" tvg-logo="https://i.imgur.com/jsi4qVb.jpg" group-title="📡 TV General",CTT Canal 49 (1080p) [Not 24/7]
 https://cdnfox.hostlagarto.com/cct49/index.m3u8
 #EXTINF:-1 tvg-id="CTV.bo@SD" tvg-logo="https://i.imgur.com/ljKb0UX.png" group-title="📡 TV General",CTV (Bolivia) (1080p)
@@ -2845,8 +2843,6 @@ http://200.115.120.1:8000/play/ca091/index.m3u8
 https://ss2.tvrdomi.com:1936/tigueritostv/tigueritostv/playlist.m3u8
 #EXTINF:-1 tvg-id="TomAndJerry.do@HD" tvg-logo="https://gia.tv/streams/pptv/208314.jpg?1750373428" group-title="🧒 Caricaturas / Infantil",Tom And Jerry (720p)
 https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
-#EXTINF:-1 tvg-id="Tooncast.us@SouthAmerica" tvg-logo="https://i.imgur.com/3yXRbQy.png" group-title="🧒 Caricaturas / Infantil",Tooncast SouthAmerica (1080p)
-http://200.62.239.170:830/play/a07n/index.m3u8
 #EXTINF:-1 tvg-id="13Festival.cl@SD" tvg-logo="https://i.imgur.com/Ymk6j5o.png" group-title="🎵 Música",13 Festival (1080p)
 https://origin.dpsgo.com/ssai/event/Nftd0fM2SXasfDlRphvUsg/master.m3u8
 #EXTINF:-1 tvg-id="88Stereo.cr@SD" tvg-logo="https://i.imgur.com/i3YwORV.png" group-title="🎵 Música",88 Stereo (720p) [Not 24/7]
@@ -2955,6 +2951,8 @@ https://rds3.desdeparaguay.net/gotv/gotv/playlist.m3u8
 https://eu1.servers10.com:8081/8178/index.m3u8
 #EXTINF:-1 tvg-id="Hits360TV.do@SD" tvg-logo="https://i.imgur.com/Cx5V233.jpg" group-title="🎵 Música",Hits 360 TV (720p) [Not 24/7]
 http://cm.hostlagarto.com:8081/hits360tv/hits360HD.myStream/playlist.m3u8
+#EXTINF:-1 tvg-id="HopeChannelPROYECTOJA.cr@SD" tvg-logo="https://i.imgur.com/VDyf36C.png" group-title="🎵 Música",Hope Channel PROYECTO JA (360p)
+https://edge1-us-miami.picarto.tv/stream/hls/golive%2bXSTUDIOCODE/0_1/index.m3u8
 #EXTINF:-1 tvg-id="ImagenFM1051.hn@SD" tvg-logo="https://i.ibb.co/C9zjz9p/343159606-190989583743350-3489987129696505785-n.jpg" group-title="🎵 Música",Imagen FM 105.1 (720p) [Not 24/7]
 https://streaming.imagenfm105-1.com/hls/stream.m3u8
 #EXTINF:-1 tvg-id="InfinitaTV.ec@SD" tvg-logo="https://i.imgur.com/1nHxdkR.png" group-title="🎵 Música",Infinita TV (1080p)
